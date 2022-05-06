@@ -1,0 +1,43 @@
+body {
+  background-color: hsl(212, 45%, 89%);
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.QR-component {
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 10px 20px 20px #CAD6E3;
+    font-family: 'Outfit', sans-serif;
+    height: 500px;
+    width: 320px;
+    text-align: center;
+}
+
+.QR-component-text {
+    margin: auto;
+    width: 80%;
+}
+
+.QR-component img {
+    border-radius: 10px;
+    margin-top: 15px;
+    height: auto;
+    width: 90%;
+}
+
+.QR-component h2 {
+    color: hsl(218, 44%, 22%);
+    font-size: 22px;
+    line-height: 30px;
+}
+
+.QR-component p {
+    color: hsl(220, 15%, 55%);
+    font-weight: 400;
+}
